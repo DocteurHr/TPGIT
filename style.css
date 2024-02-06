@@ -1,0 +1,87 @@
+*{
+    background-color: whitesmoke;
+}
+
+form{
+    position: relative;
+    top: 20px;
+    left: 25%; 
+    margin: 20px;
+    background-color: white;
+    height: 350px;
+    width: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+h3{
+    background-color: transparent;
+    position: relative;
+    top: 20px;
+    left: 250px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.input{
+    background-color: white;
+    display: flex;
+    position: relative;
+    padding: 5px;
+    margin: 5px;
+}
+
+.input input{
+    border: 1px solid ;
+    background-color: white;
+    margin-left: 65px;
+    height: 20px;
+    padding: 2px;
+    width: 400px;
+}
+
+label{
+    font-weight: bold;
+    background-color: white;
+    top: 20px;
+}
+
+#msg{
+    position: relative;
+    top: 35px;
+}
+
+.btn{
+    background-color: transparent;
+}
+
+button{
+    margin-left: 15px;
+    background-color:blue;
+    height: 30px;
+    width: 90vh;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    color: white;
+}
+
+label{
+    font-size: 20px;
+}
+
+textarea{
+    background-color: white;
+    position: relative;
+    bottom: 35px;
+    left: 140px;
+    width: 400px;
+    height: 90px;
+} 
